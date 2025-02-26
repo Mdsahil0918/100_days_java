@@ -1,0 +1,8 @@
+control flow statements :
+this are are predefined statements used to control the excution on the code
+1.conditional statement/decision making statements :
+	if , if else,if else if,switch
+2.looping statements:
+	for loop,while loop, do while loop
+3.jumping statements
+	break,continue

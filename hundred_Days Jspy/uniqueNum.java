@@ -1,0 +1,37 @@
+class uniqueNum 
+{
+	public static void main(String[] args) 
+	{
+		boolean unique=true;
+		int n=47943;
+		int org=n;
+		while(n!=0)	
+		{
+			int temp=n%10;
+			n/=10;
+			int temp2=n;
+			while(temp2!=0)
+			{
+				int temp3=temp2%10;
+				if (temp==temp3)
+				{
+					unique=false;
+					break;
+				}
+				temp2=temp2/10;
+			}
+		if(!unique)
+		{
+			break;
+		}
+	}
+		if(unique)
+		{
+			System.out.println("is Unique");
+		}
+		else{
+			System.out.println("not Unique");
+		}
+	}
+	
+}
